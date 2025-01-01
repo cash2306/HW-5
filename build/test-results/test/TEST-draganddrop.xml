@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="draganddrop" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-01-01T15:47:37" hostname="WIN-6J8KI8K032D" time="4.131">
+  <properties/>
+  <testcase name="dragAndDropFigureActionsTest()" classname="draganddrop" time="3.825"/>
+  <testcase name="dragAndDropFigureTest()" classname="draganddrop" time="0.305"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+янв. 01, 2025 6:47:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+</testsuite>
