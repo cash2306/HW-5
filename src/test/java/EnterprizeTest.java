@@ -7,11 +7,13 @@ import static com.codeborne.selenide.Selectors.byTagAndText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class enterprize {
+public class EnterprizeTest {
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
+        //Размер окна браузера во время выполнения тестов
         Configuration.pageLoadStrategy = "eager";
+        //Не дожидаться загрузки страницы
     }
 
     @Test
